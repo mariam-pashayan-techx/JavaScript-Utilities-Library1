@@ -130,7 +130,7 @@ function hoistedFunction() {
 // 5. Function expression hoisting
 console.log("Example:");
 try {
-    nonHoistedFunction(); // Throws TypeError
+    nonHoistedFunction(); // Reference Error
 } catch (e) {
     console.log(e.toString());
 }
